@@ -5,7 +5,7 @@
 }
 header .container{
     width: 90%;
-    height: 80px;
+    height: 110px;
     border-bottom: 1px solid #ccc;
     margin: auto ;
    
@@ -22,14 +22,15 @@ header .container{
 }
 
 .logo img {
-    width: 121px;
-    height: 50px;
-    margin-top: 15px;
+    width: auto;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 35px;
     
 }
 .menu{
     float: right;
-    width: 45%;
+    width: 50%;
 }
 .menu ul{
      list-style: none;
@@ -39,13 +40,13 @@ header .container{
 
 .menu ul li{
     display: inline-block;
-    margin: 35px 20px;
+    margin: 40px 25px;
 }
 .menu ul li a{
     text-decoration: none;
     color: black;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 550;
 }
 .menu ul li a:hover{
     color: #007bff;
@@ -151,7 +152,7 @@ header .container{
 .card-div .container .card{
     width: 33.3%;
     height: 450px;
-    background-color: #FDEBED;
+    background-color: #c8c1e4;
     padding: 10px 20px 50px 20px;
    
 }
@@ -180,7 +181,7 @@ footer .container{
     margin-top: 50px;
     text-align: center;
     padding: 20px 0;
-    background-color: #007bff;
+    background-color: #474c51;
     color: #f1f2f6;
 
 }
@@ -197,7 +198,7 @@ footer .container a{
 }
 
 footer .container a:hover{
-    color: #545c5d;
+    color: #1304e1;
     transition: 0.3s;
 }
 
