@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .container{
+    width: 90%;
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+    margin: auto ;
+   
+}
+.container{
+    margin: auto ;
+   
+
+}
+
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.logo img {
+    width: 121px;
+    height: 50px;
+    margin-top: 15px;
+    
+}
+.menu{
+    float: right;
+    width: 45%;
+}
+.menu ul{
+     list-style: none;
+    text-align: right;
+
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 35px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+.menu ul li a:hover{
+    color: #007bff;
+    transition: 0.3s;
+}
+.content .container{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.content .container h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #130f40;
+}
+.content .container h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #4834d4;
+}
+
+
+
+.content .container p{
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    width: 70%;
+    margin: auto;
+}
+
+.banner .container{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.banner .container img{
+    width: 1000px;
+    margin: auto;
+    display: block;
+}
+
+
+/* project section */
+
+.project .container{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project .container .project-box1{
+    width: 40%;
+   height: 250px;
+   padding: 10px;
+}
+
+.project .container .project-box1 h1{
+    text-align: right;
+    font-size: 50px;
+    color: #eb4d4b;
+}
+.project .container .project-box1 p{
+    text-align: right;
+    color: #000;
+    font-size: 23px;
+}
+
+.project .container .project-box2{
+    width: 32%;
+   height: 250px;
+   padding: 10px;
+}
+
+.project .container .project-box2 h3{
+    text-align: left;
+    font-size: 50px;
+    color: #130f40;
+    font-weight: 900;
+}
+
+/* Project end */
+
+.card-div .container{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.card-div .container .card{
+    width: 33.3%;
+    height: 450px;
+    background-color: #FDEBED;
+    padding: 10px 20px 50px 20px;
+   
+}
+
+.card-div .container .card img{
+    width: 100%;
+    height: 250px;
+}
+
+.card-div .container .card h4{
+    margin-top: 10px;
+    font-size: 25px;
+    color: #130f40;
+}
+
+.card-div .container .card p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #2c3e50;
+    line-height: 1.5em;
+}
+
+
+footer .container{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007bff;
+    color: #f1f2f6;
+
+}
+
+footer .container p{
+    font-size: 18px;
+}
+
+footer .container a{
+    text-decoration: none;
+    color: #f1f2f6;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+footer .container a:hover{
+    color: #545c5d;
+    transition: 0.3s;
+}
+
+
